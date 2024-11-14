@@ -10,7 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../4 Java consumir API escribir archivos y manejar errores/Gson/gson-2.10.1.jar!/" />
+          <root url="jar://C:/Victor/ORACLE - ALURA LATAM/Segundo ciclo/Java Orientado a Objetos G7 - ONE/4 Java consumir API escribir archivos y manejar errores/Gson/gson-2.10.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

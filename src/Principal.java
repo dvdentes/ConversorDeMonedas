@@ -5,12 +5,6 @@ public class Principal {
         Scanner lectura = new Scanner(System.in);
         ConsultaMoneda consulta = new ConsultaMoneda(); //Busqueda consulta = new Busqueda();
 
-//        System.out.println("Selecciona la moneda base (por ejemplo, USD): ");
-//        String base_code = lectura.nextLine().toUpperCase(); // Convierte la entrada a mayúsculas
-//
-//        System.out.println("Selecciona la moneda a convertir (por ejemplo, COP): ");
-//        String target_code = lectura.nextLine().toUpperCase(); // Convierte la entrada a mayúsculas
-
         int opcion = 0;
         Double valorAConvertir;
 
@@ -106,11 +100,6 @@ public class Principal {
 
                 double valorFinal = valorAConvertir * conversionRate;
                 System.out.println("El valor que obtendras es: " + valorFinal +" " + target_code);
-
-//                System.out.println("Ingresa el valor a convertir");
-//                valorAConvertir = lectura.nextDouble();
-//                double valorFinal = valorAConvertir * conversionRate;
-//                System.out.println("El valor que obtendras son: " + valorFinal +" " + target_code);
 
             } catch (RuntimeException e) {
                 System.out.println(e.getMessage());
